@@ -1,4 +1,8 @@
-#your-order {
+#your-toppings {
+  display: none;
+}
+
+#your-size {
   display: none;
 }
 
