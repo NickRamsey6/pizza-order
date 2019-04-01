@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pizza Order</title>
+     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Pizza Order</h2>
+      </div>
+      <form id="pizza-order">
+        <div class="form-group">
+          <p>Choose your toppings</p>
+          <input type="checkbox" name="pizza-topping" value="pineapple"> pineapple<br>
+          <input type="checkbox" name="pizza-topping" value="pepperoni"> pepperoni<br>
+          <input type="checkbox" name="pizza-topping" value="cheese"> cheese<br>
+          <input type="checkbox" name="pizza-topping" value="bbq"> bbq<br>
+          <p>Choose your size</p>
+          <select class="form-control" id="size">
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+          </select>
+        </div>
+       <button type="submit">Submit Order</button>
+      </form>
+      <span id="your-order">
+        <p><b>Your order:</b></p>
+      </span>
+      <span id="your-price">
+        <p><b>Your total:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
